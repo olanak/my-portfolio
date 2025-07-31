@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0c10;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+section { padding: 40px 20px; }
+footer { text-align: center; padding: 10px; }
