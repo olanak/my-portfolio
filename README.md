@@ -6,6 +6,7 @@ This project is part of the **PLP Academy Hackathon**.
 ---
 
 ## 🚀 Features Implemented So Far
+- ✅ Navigation Bar – Sticky top navigation with smooth scrolling between sections  
 - ✅ **Hero Section** with buttons and dark theme  
 - ✅ **Animated Background** (stars, clouds, shooting stars)  
 - ✅ **About Me** with glassmorphism card  
