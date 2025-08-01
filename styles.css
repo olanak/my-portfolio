@@ -172,3 +172,45 @@ body {
   font-size: 2rem;
   color: #00ffcc;
   margin-bottom: 30px; }
+
+/* ---------- EDUCATION SECTION ---------- */
+#education {
+  text-align: center;
+  padding: 20px 10px;
+}
+.timeline {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.edu-card {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.edu-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 0 15px #00ffcc;
+}
+.edu-icon {
+  font-size: 2rem;
+  margin-right: 15px;
+  color: #00ffcc;
+}
+.edu-info h3 {
+  color: #00ffcc;
+  margin-bottom: 5px;
+}
+.edu-info p {
+  color: #ddd;
+}
+.cv-download {
+  margin-top: 20px;
+}
