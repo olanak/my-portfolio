@@ -10,7 +10,9 @@ This project is part of the **PLP Academy Hackathon**.
 - ✅ **Animated Background** (stars, clouds, shooting stars)  
 - ✅ **About Me** with glassmorphism card  
 - ✅ **Skills Section** (grid with hover animations)  
-- ✅ **Education Section** (timeline with glowing effects)  
+- ✅ **Education Section** (timeline with glowing effects)
+- ✅ Projects Section – Showcases portfolio projects with 3D hover effects and fade-in animations  
+
 
 ---
 
@@ -35,7 +37,7 @@ This project is part of the **PLP Academy Hackathon**.
 
 ## 🏗️ **Development Progress**
 Each feature is added through **incremental commits** to demonstrate step-by-step development.  
-🔗 [**Check Commit History**](https://github.com/yourusername/portfolio/commits/main) for details.
+🔗 [**Check Commit History**](https://github.com/olanak/my-portfolio/commits/main) for details.
 
 ---
 
