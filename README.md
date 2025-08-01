@@ -12,6 +12,7 @@ This project is part of the **PLP Academy Hackathon**.
 - ✅ **Skills Section** (grid with hover animations)  
 - ✅ **Education Section** (timeline with glowing effects)
 - ✅ Projects Section – Showcases portfolio projects with 3D hover effects and fade-in animations  
+- ✅ Contact Section – Includes a styled contact form and social media links  
 
 
 ---
