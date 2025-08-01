@@ -82,3 +82,40 @@ body {
   0% { transform: translateX(0) translateY(0) rotate(45deg); opacity: 1; }
   100% { transform: translateX(-400px) translateY(400px) rotate(45deg); opacity: 0; }
 }
+
+/* ---------- ABOUT SECTION ---------- */
+.about-card {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #00ffcc;
+  margin-bottom: 15px;
+}
+.about-card h2 {
+  color: #00ffcc;
+  margin-bottom: 10px;
+}
+.about-card p {
+  color: #eee;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+.about-card blockquote {
+  font-style: italic;
+  color: #ccc;
+  border-left: 3px solid #00ffcc;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
