@@ -57,7 +57,6 @@ body {
   color: #000;
 }
 
-
 /* ---------- SHOOTING STARS ---------- */
 .night {
   position: absolute;
@@ -79,8 +78,14 @@ body {
   left: 50%;
 }
 @keyframes shoot {
-  0% { transform: translateX(0) translateY(0) rotate(45deg); opacity: 1; }
-  100% { transform: translateX(-400px) translateY(400px) rotate(45deg); opacity: 0; }
+  0% {
+    transform: translateX(0) translateY(0) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-400px) translateY(400px) rotate(45deg);
+    opacity: 0;
+  }
 }
 
 /* ---------- ABOUT SECTION ---------- */
@@ -119,3 +124,51 @@ body {
   margin-top: 15px;
 }
 
+/* ---------- SKILLS SECTION (Improved) ---------- */
+#skills {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 20px 10px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 255, 204, 0.2);
+}
+
+.skill-card img {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.skill-card p {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px) scale(1.08);
+  box-shadow: 0 0 20px #00ffcc;
+}
+.section-title { 
+  font-size: 2rem;
+  color: #00ffcc;
+  margin-bottom: 30px; }
